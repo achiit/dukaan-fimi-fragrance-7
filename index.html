@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FIMI Fragrance | Original Perfumes &amp; Attars in Karachi</title>
+<meta name="description" content="FIMI Fragrance – original perfumes, attars and body mists in Karachi. Honest prices, sample before you buy. Call or WhatsApp to order.">
+<meta name="theme-color" content="#7A2E3B">
+<meta property="og:title" content="FIMI Fragrance – Original Perfumes &amp; Attars">
+<meta property="og:description" content="Original fragrances, honest prices. Order on WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237A2E3B'/%3E%3Ctext x='32' y='43' font-size='32' text-anchor='middle' fill='%23F7F1E5' font-family='serif'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F8F3E8;
+  --bg-2:#F0E8D6;
+  --ink:#241F1C;
+  --accent:#7A2E3B;
+  --accent-dark:#5E212C;
+  --gold:#B58A3C;
+  --line:#DDD1BA;
+  --muted:#6B6258;
+  --display:'Cormorant Garamond',Georgia,serif;
+  --body:'DM Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);line-height:1.6;font-size:16px;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.1}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:10px}
+.eyebrow svg{width:14px;height:18px}
+h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 24px;border-radius:999px;font-weight:700;text-decoration:none;font-size:.98rem;border:2px solid var(--accent);transition:transform .15s,background .15s;min-height:48px}
+.btn:active{transform:scale(.97)}
+.btn-wa{background:var(--accent);color:#F8F3E8}
+.btn-wa:hover{background:var(--accent-dark)}
+.btn-out{background:transparent;color:var(--accent)}
+.btn-out:hover{background:var(--accent);color:#F8F3E8}
+.btn-sm{padding:10px 18px;min-height:42px;font-size:.9rem}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* header */
+header.site{position:sticky;top:0;z-index:50;background:rgba(248,243,232,.97);border-bottom:1px solid var(--line)}
+.hbar{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.logo{font-family:var(--display);font-size:1.7rem;font-weight:700;text-decoration:none;color:var(--accent);letter-spacing:.04em;display:flex;align-items:center;gap:8px}
+.logo svg{width:18px;height:24px}
+nav.main{display:none;gap:26px}
+nav.main a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--ink)}
+nav.main a:hover{color:var(--accent)}
+.hcta{display:flex;gap:8px;align-items:center}
+.hcta .btn{padding:9px 16px;min-height:40px;font-size:.88rem}
+.hcta .hide-sm{display:none}
+.burger{background:none;border:1px solid var(--line);border-radius:8px;width:42px;height:42px;cursor:pointer;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.burger span{width:20px;height:2px;background:var(--ink);display:block}
+.mobnav{display:none;border-top:1px solid var(--line);background:var(--bg)}
+.mobnav.open{display:block}
+.mobnav a{display:block;padding:16px 20px;text-decoration:none;border-bottom:1px solid var(--line);font-weight:500}
+
+/* hero */
+.hero{padding:48px 0 72px;position:relative;overflow:hidden}
+.hero-grid{display:grid;gap:40px}
+.hero h1{font-size:clamp(2.6rem,8vw,4.8rem);margin-bottom:18px;color:var(--ink)}
+.hero h1 em{color:var(--accent);font-style:italic}
+.proof{font-size:1.1rem;color:var(--muted);max-width:520px;margin-bottom:26px}
+.hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:18px}
+.micro{font-size:.88rem;color:var(--muted);display:flex;align-items:center;gap:8px}
+.micro svg{width:14px;height:18px;flex:none}
+.hero-visual{position:relative}
+.hero-visual .main-img{border-radius:200px 200px 16px 16px;overflow:hidden;aspect-ratio:4/5;background:linear-gradient(160deg,var(--bg-2),var(--line));border:1px solid var(--line)}
+.hero-visual img{width:100%;height:100%;object-fit:cover}
+.badge{position:absolute;left:-6px;bottom:28px;background:var(--ink);color:var(--bg);padding:14px 18px;border-radius:12px;font-family:var(--display);font-size:1.15rem;line-height:1.2;max-width:180px}
+.badge b{color:var(--gold)}
+.deco{position:absolute;pointer-events:none;opacity:.5}
+
+/* trust */
+.trust{background:var(--ink);color:var(--bg);padding:44px 0}
+.trust-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 16px}
+.stat{display:flex;flex-direction:column;gap:4px;border-left:2px solid var(--gold);padding-left:14px}
+.stat strong{font-family:var(--display);font-size:2.4rem;line-height:1;color:var(--gold)}
+.stat span{font-size:.9rem;opacity:.85}
+
+/* services */
+.svc-grid{display:grid;gap:18px;margin-top:36px}
+.card{background:#FCF9F1;border:1px solid var(--line);border-radius:16px;padding:26px;display:flex;flex-direction:column;gap:10px}
+.card .ico{width:44px;height:44px}
+.card h3{font-size:1.6rem}
+.card p{color:var(--muted);font-size:.95rem;flex:1}
+.card .price{font-weight:700;color:var(--accent);font-size:1.02rem}
+.card.feature{background:var(--accent);color:#F8F3E8;border-color:var(--accent)}
+.card.feature p{color:#EBD9D4}
+.card.feature .price{color:var(--gold)}
+.card.feature .btn-wa{background:#F8F3E8;color:var(--accent);border-color:#F8F3E8}
+
+/* about */
+.about{background:var(--bg-2)}
+.about-grid{display:grid;gap:40px;align-items:start}
+.avatar{width:120px;height:120px;border-radius:50%;background:var(--accent);color:#F8F3E8;font-family:var(--display);font-size:3rem;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:20px;border:4px solid var(--gold)}
+.about p{margin-bottom:16px;max-width:600px}
+.sig{font-family:var(--display);font-size:1.4rem;color:var(--accent);font-style:italic}
+.diff{list-style:none;display:grid;gap:14px}
+.diff li{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:18px 18px 18px 56px;position:relative}
+.diff li svg{position:absolute;left:18px;top:20px;width:18px;height:24px}
+.diff li b{display:block;font-family:var(--display);font-size:1.25rem;margin-bottom:2px}
+.diff li span{color:var(--muted);font-size:.93rem}
+
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:32px}
+.gal figure{border-radius:14px;overflow:hidden;background:linear-gradient(150deg,var(--bg-2),var(--line));min-height:150px;position:relative}
+.gal img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.gal .g1{grid-row:span 2;min-height:320px}
+.gal .g4{grid-column:span 2;min-height:170px}
+
+/* testimonials */
+.rev-grid{display:grid;gap:18px;margin-top:32px}
+.rev{border:1px solid var(--line);border-radius:16px;padding:24px;background:#FCF9F1}
+.rev:nth-child(2){margin-top:0}
+.stars{display:flex;gap:3px;margin-bottom:12px}
+.stars svg{width:18px;height:18px}
+.rev p{margin-bottom:14px}
+.rev cite{font-style:normal;font-weight:700;font-size:.92rem}
+.rev small{display:block;color:var(--muted)}
+
+/* pricing */
+.pricing{background:var(--bg-2)}
+.plist{list-style:none;max-width:760px;margin-top:28px}
+.plist li{display:flex;align-items:baseline;gap:10px;padding:16px 0;border-bottom:1px dashed var(--gold)}
+.plist .n{font-family:var(--display);font-size:1.3rem;font-weight:600}
+.plist .n small{display:block;font-family:var(--body);font-size:.82rem;color:var(--muted);font-weight:400}
+.plist .dots{flex:1}
+.plist .p{font-weight:700;color:var(--accent);white-space:nowrap}
+.pnote{margin-top:20px;color:var(--muted);font-size:.9rem;max-width:620px}
+
+/* contact */
+.contact-grid{display:grid;gap:32px;margin-top:32px}
+.map{border-radius:16px;overflow:hidden;border:1px solid var(--line);min-height:320px;background:var(--bg-2)}
+.map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+.hours{display:grid;grid-template-columns:1fr auto;gap:8px 20px;margin:12px 0 24px;max-width:340px}
+.hours span:nth-child(even){font-weight:700}
+.cinfo p{margin-bottom:8px}
+.cinfo a{color:var(--accent);font-weight:500}
+.cinfo h3{font-size:1.5rem;margin-top:12px}
+.cbtns{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
+
+/* footer */
+footer{background:var(--ink);color:var(--bg);padding:64px 0 110px;position:relative;overflow:hidden}
+.fgrid{display:grid;gap:32px}
+footer .logo{color:var(--gold)}
+footer p.tag{font-family:var(--display);font-size:1.3rem;font-style:italic;opacity:.9;margin-top:10px}
+footer ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px 22px}
+footer ul a{text-decoration:none;opacity:.85}
+footer ul a:hover{opacity:1;color:var(--gold)}
+.bigwa{display:flex;align-items:center;justify-content:center;gap:12px;background:var(--gold);color:var(--ink);padding:20px 24px;border-radius:16px;text-decoration:none;font-family:var(--display);font-size:1.7rem;font-weight:700;margin-top:10px}
+.bigwa svg{width:28px;height:28px}
+.copy{margin-top:36px;padding-top:20px;border-top:1px solid rgba(248,243,232,.2);font-size:.85rem;opacity:.8;display:flex;flex-direction:column;gap:6px}
+
+/* sticky bottom bar */
+.stickybar{display:none}
+@media(max-width:768px){
+  .stickybar{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--bg);border-top:1px solid var(--line);padding:10px;gap:10px}
+  .stickybar .btn{width:100%}
+}
+
+@media(min-width:521px){
+  .hcta .hide-sm{display:inline-flex}
+  .svc-grid{grid-template-columns:repeat(2,1fr)}
+  .gal{grid-template-columns:repeat(3,1fr)}
+  .gal .g4{grid-column:span 2}
+  .trust-grid{grid-template-columns:repeat(4,1fr)}
+}
+@media(min-width:821px){
+  nav.main{display:flex}
+  .burger,.mobnav{display:none!important}
+  section{padding:104px 0}
+  .hero-grid{grid-template-columns:1.15fr .85fr;align-items:center}
+  .svc-grid{grid-template-columns:repeat(6,1fr)}
+  .svc-grid .card{grid-column:span 2}
+  .svc-grid .card.feature{grid-column:span 3}
+  .svc-grid .card.wide{grid-column:span 3}
+  .about-grid{grid-template-columns:1fr 1fr}
+  .rev-grid{grid-template-columns:repeat(3,1fr)}
+  .rev:nth-child(2){margin-top:36px}
+  .contact-grid{grid-template-columns:1.2fr 1fr}
+  .fgrid{grid-template-columns:1.2fr 1fr}
+  .copy{flex-direction:row;justify-content:space-between}
+}
+@media(min-width:1081px){
+  .hero-visual .badge{left:-34px}
+  .gal{gap:14px}
+  .gal figure{min-height:200px}
+  .gal .g1{min-height:420px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<!-- SVG sprite: attar drop motif + icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="drop" viewBox="0 0 24 32"><path d="M12 1 C12 1 3 13 3 20 a9 9 0 0 0 18 0 C21 13 12 1 12 1Z" fill="currentColor"/><path d="M8 20a4 4 0 0 0 4 4" stroke="#F8F3E8" stroke-width="1.6" fill="none" stroke-linecap="round"/></symbol>
+    <symbol id="star" viewBox="0 0 24 24"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18l-6.5 4 1.7-7.4-5.7-5L9 8.9z" fill="#B58A3C"/></symbol>
+    <symbol id="wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.3 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8zM8.7 7.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4s1 2.8 1.200 3c.1.2 2 3.200 5 4.400 2.500 1 3 .8 3.500.7.600-.1 1.800-.7 2-1.400.3-.7.3-1.300.2-1.400-.1-.1-.3-.2-.6-.4l-1.900-.9c-.3-.1-.5-.1-.7.1l-.9 1.100c-.2.200-.3.200-.6.100-.3-.2-1.200-.4-2.300-1.400-.8-.8-1.400-1.700-1.500-2-.2-.3 0-.4.100-.6l.4-.5c.1-.2.200-.3.300-.5.100-.2 0-.4 0-.5l-.9-2.100c-.2-.5-.4-.5-.6-.5z"/></symbol>
+    <symbol id="ph" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.600 6.600l2.200-2.200a1 1 0 0 1 1-.25 11.400 11.400 0 0 0 3.600.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.500a1 1 0 0 1 1 1c0 1.300.2 2.500.6 3.600a1 1 0 0 1-.25 1z"/></symbol>
+  </defs>
+</svg>
+
+<header class="site">
+  <div class="wrap hbar">
+    <a href="#top" class="logo" aria-label="FIMI Fragrance home"><svg><use href="#drop"/></svg>FIMI</a>
+    <nav class="main" aria-label="Main">
+      <a href="#services">Fragrances</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Prices</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="hcta">
+      <a class="btn btn-out hide-sm" href="tel:+923703224706"><svg><use href="#ph"/></svg>Call</a>
+      <a class="btn btn-wa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20saw%20your%20FIMI%20Fragrance%20website.%20I%20would%20like%20to%20know%20more." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobnav" id="mobnav">
+    <a href="#services">Fragrances</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#pricing">Prices</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <svg class="deco" style="top:30px;right:-20px;width:90px;color:var(--gold)" aria-hidden="true"><use href="#drop"/></svg>
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow"><svg><use href="#drop"/></svg>FIMI Fragrance &middot; Karachi</div>
+      <h1>Original perfumes and attars that <em>last all day.</em></h1>
+      <p class="proof">Smell it first, then decide. Every bottle at FIMI is sealed, original and priced fairly, with no pressure to buy.</p>
+      <div class="hero-btns">
+        <a class="btn btn-wa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20order%20a%20fragrance%20from%20FIMI.%20Please%20share%20the%20options." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Order on WhatsApp</a>
+        <a class="btn btn-out" href="tel:+923703224706"><svg><use href="#ph"/></svg>Call 0370 3224706</a>
+      </div>
+      <p class="micro"><svg style="color:var(--gold)"><use href="#drop"/></svg>Samples available &middot; Cash on delivery &middot; Replies within the hour</p>
+    </div>
+    <div class="hero-visual">
+      <div class="main-img"><img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&auto=format&fit=crop" alt="Elegant perfume bottle on a soft background" onerror="this.style.display='none'"></div>
+      <div class="badge"><b>100%</b> original fragrances</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust">
+  <div class="wrap trust-grid">
+    <div class="stat"><strong>100%</strong><span>Original, sealed bottles</span></div>
+    <div class="stat"><strong>50+</strong><span>Perfumes, attars &amp; mists</span></div>
+    <div class="stat"><strong>2024</strong><span>Serving Karachi since</span></div>
+    <div class="stat"><strong>COD</strong><span>Pay when it reaches you</span></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#drop"/></svg>Our fragrances</div>
+    <h2>Find the one that feels like you</h2>
+    <div class="svc-grid">
+
+      <article class="card feature">
+        <svg class="ico" style="color:var(--gold)"><use href="#drop"/></svg>
+        <h3>Men's Perfumes</h3>
+        <p>Fresh, woody and spicy blends for office, weddings and everyday wear. Ask for our Eid and winter picks.</p>
+        <span class="price">From Rs. 1,800</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Men%27s%20Perfumes%20from%20FIMI.%20Please%20share%20options%20and%20prices." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+      <article class="card wide">
+        <svg class="ico" style="color:var(--accent)"><use href="#drop"/></svg>
+        <h3>Women's Perfumes</h3>
+        <p>Floral, fruity and soft musky scents, from light daytime sprays to rich evening fragrances.</p>
+        <span class="price">From Rs. 1,800</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20am%20interested%20in%20Women%27s%20Perfumes%20from%20FIMI.%20Please%20share%20options%20and%20prices." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+      <article class="card">
+        <svg class="ico" style="color:var(--gold)"><use href="#drop"/></svg>
+        <h3>Pure Attars</h3>
+        <p>Alcohol-free oils: oud, musk, rose and sandal. A little goes a long way.</p>
+        <span class="price">From Rs. 800 / 6 ml</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20buy%20attar%20from%20FIMI.%20Which%20ones%20do%20you%20have%3F" target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+      <article class="card">
+        <svg class="ico" style="color:var(--accent)"><use href="#drop"/></svg>
+        <h3>Body Mists</h3>
+        <p>Light, easy sprays for daily use and gifting. Gentle on skin in the Karachi heat.</p>
+        <span class="price">From Rs. 900</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20order%20a%20body%20mist%20from%20FIMI.%20Please%20share%20options." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+      <article class="card">
+        <svg class="ico" style="color:var(--gold)"><use href="#drop"/></svg>
+        <h3>Gift Sets</h3>
+        <p>Boxed sets for birthdays, weddings and Eid, wrapped neatly with a handwritten card on request.</p>
+        <span class="price">From Rs. 3,500</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20need%20a%20gift%20set%20from%20FIMI.%20My%20budget%20is..." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+      <article class="card wide">
+        <svg class="ico" style="color:var(--accent)"><use href="#drop"/></svg>
+        <h3>Decants &amp; Samples</h3>
+        <p>Not sure yet? Try a 5 ml or 10 ml decant of any perfume before you commit to the full bottle.</p>
+        <span class="price">From Rs. 500</span>
+        <a class="btn btn-wa btn-sm" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20try%20a%20sample%20or%20decant%20from%20FIMI.%20What%20is%20available%3F" target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Ask on WhatsApp</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <div class="wrap about-grid">
+    <div>
+      <div class="eyebrow"><svg><use href="#drop"/></svg>About FIMI</div>
+      <h2>A small shop built on one smell</h2>
+      <div class="avatar" aria-label="Owner initials">AN</div>
+      <p>My uncle used to keep a small box of attars in his shirt pocket, and every Friday the whole mohalla knew he was coming before he arrived. That smell is why I started FIMI. I wanted people to wear something good without paying for a famous name on the box.</p>
+      <p>I started FIMI in 2024, selling from home to relatives and neighbours, and they sent their friends. I learned what suits our heat, our weddings and our Eid mornings, and I only stock what I would wear myself.</p>
+      <p>If you do not like something, tell me. I would rather lose one sale than a customer.</p>
+      <p class="sig">&mdash; Atif Nayyar, FIMI Fragrance</p>
+    </div>
+    <ul class="diff">
+      <li><svg style="color:var(--accent)"><use href="#drop"/></svg><b>Only original stock</b><span>Sealed bottles from trusted suppliers. Ask and I will show you the batch details.</span></li>
+      <li><svg style="color:var(--gold)"><use href="#drop"/></svg><b>Try before you buy</b><span>Samples and decants so you do not waste money on the wrong scent.</span></li>
+      <li><svg style="color:var(--accent)"><use href="#drop"/></svg><b>Picked for Karachi weather</b><span>Scents that hold up in humidity and heat, not just in an air-conditioned shop.</span></li>
+      <li><svg style="color:var(--gold)"><use href="#drop"/></svg><b>Straight prices</b><span>The price you are told on WhatsApp is the price you pay.</span></li>
+      <li><svg style="color:var(--accent)"><use href="#drop"/></svg><b>Direct with the owner</b><span>You message me, not a call centre.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#drop"/></svg>Gallery</div>
+    <h2>A look at the shelf</h2>
+    <div class="gal">
+      <figure class="g1"><img loading="lazy" src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800&auto=format&fit=crop" alt="Perfume bottle with soft lighting" onerror="this.style.display='none'"></figure>
+      <figure><img loading="lazy" src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=800&auto=format&fit=crop" alt="Row of perfume bottles" onerror="this.style.display='none'"></figure>
+      <figure><img loading="lazy" src="https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=800&auto=format&fit=crop" alt="Fragrance bottles on display" onerror="this.style.display='none'"></figure>
+      <figure class="g4"><img loading="lazy" src="https://images.unsplash.com/photo-1587017539504-67cfbddac569?w=800&auto=format&fit=crop" alt="Collection of fragrances" onerror="this.style.display='none'"></figure>
+      <figure><img loading="lazy" src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=800&auto=format&fit=crop" alt="Glass perfume bottle close up" onerror="this.style.display='none'"></figure>
+      <figure><img loading="lazy" src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800&auto=format&fit=crop" alt="Luxury perfume bottle" onerror="this.style.display='none'"></figure>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#drop"/></svg>Customer words</div>
+    <h2>What people tell us</h2>
+    <div class="rev-grid">
+      <blockquote class="rev">
+        <div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>Took a sample first, loved it, then bought the full bottle. Still smelling good at Isha time. Delivery came the next day.</p>
+        <cite>Bilal A.<small>Gulshan-e-Iqbal</small></cite>
+      </blockquote>
+      <blockquote class="rev">
+        <div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>Ordered a gift set for my sister's wedding. Packing was neat and the rose attar got so many compliments.</p>
+        <cite>Sana K.<small>North Nazimabad</small></cite>
+      </blockquote>
+      <blockquote class="rev">
+        <div class="stars"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>Price was told clearly on WhatsApp, no extra charges. Bhai suggested a scent that works in summer and he was right.</p>
+        <cite>Hamza R.<small>Gulistan-e-Johar</small></cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#drop"/></svg>Prices</div>
+    <h2>Simple, written-down prices</h2>
+    <ul class="plist">
+      <li><span class="n">Decant / sample<small>5 ml and 10 ml</small></span><span class="dots"></span><span class="p">from Rs. 500</span></li>
+      <li><span class="n">Pure attar<small>6 ml bottle</small></span><span class="dots"></span><span class="p">from Rs. 800</span></li>
+      <li><span class="n">Body mist<small>Daily use</small></span><span class="dots"></span><span class="p">from Rs. 900</span></li>
+      <li><span class="n">Perfume<small>Men's and women's, full bottle</small></span><span class="dots"></span><span class="p">from Rs. 1,800</span></li>
+      <li><span class="n">Gift set<small>Boxed, with card</small></span><span class="dots"></span><span class="p">from Rs. 3,500</span></li>
+      <li><span class="n">Delivery<small>Within Karachi</small></span><span class="dots"></span><span class="p">confirmed on WhatsApp</span></li>
+    </ul>
+    <p class="pnote">Final price depends on the brand and size you choose. Message us and we will confirm it before you order.</p>
+    <div class="cbtns"><a class="btn btn-wa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20please%20send%20me%20your%20full%20price%20list." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Get full price list</a></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="background:var(--bg-2)">
+  <div class="wrap">
+    <div class="eyebrow"><svg><use href="#drop"/></svg>Contact</div>
+    <h2>Visit, call or message</h2>
+    <div class="contact-grid">
+      <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Karachi%2C%20Pakistan&output=embed" title="FIMI Fragrance location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="cinfo">
+        <h3>Opening hours</h3>
+        <div class="hours">
+          <span>Mon &ndash; Thu</span><span>11 am &ndash; 9 pm</span>
+          <span>Friday</span><span>3 pm &ndash; 10 pm</span>
+          <span>Sat &ndash; Sun</span><span>11 am &ndash; 10 pm</span>
+        </div>
+        <h3>Reach us</h3>
+        <p>Phone: <a href="tel:+923703224706">0370 3224706</a></p>
+        <p>Email: <a href="mailto:atifnayyar7@gmail.com">atifnayyar7@gmail.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/mr_atif_121" target="_blank" rel="noopener">@mr_atif_121</a></p>
+        <p>Karachi, Sindh, Pakistan</p>
+        <div class="cbtns">
+          <a class="btn btn-wa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20would%20like%20to%20visit%20FIMI%20Fragrance.%20Please%20share%20your%20location." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
+          <a class="btn btn-out" href="tel:+923703224706"><svg><use href="#ph"/></svg>Call now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a href="#top" class="logo"><svg><use href="#drop"/></svg>FIMI Fragrance</a>
+        <p class="tag">Wear something worth remembering.</p>
+        <ul style="margin-top:22px">
+          <li><a href="#services">Fragrances</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#pricing">Prices</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="https://www.instagram.com/mr_atif_121" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <a class="bigwa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20order%20from%20FIMI%20Fragrance." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>Chat on WhatsApp</a>
+    </div>
+    <div class="copy">
+      <span>&copy; <span id="yr">2026</span> FIMI Fragrance. All rights reserved.</span>
+      <span>built with ❤️ by 21.coders</span>
+    </div>
+  </div>
+</footer>
+
+<div class="stickybar">
+  <a class="btn btn-out" href="tel:+923703224706"><svg><use href="#ph"/></svg>Call</a>
+  <a class="btn btn-wa" href="https://wa.me/923703224706?text=Assalam%20o%20Alaikum%2C%20I%20want%20to%20order%20from%20FIMI%20Fragrance." target="_blank" rel="noopener"><svg><use href="#wa"/></svg>WhatsApp</a>
+</div>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var b=document.getElementById('burger'),m=document.getElementById('mobnav');
+b.addEventListener('click',function(){var o=m.classList.toggle('open');b.setAttribute('aria-expanded',o)});
+m.addEventListener('click',function(e){if(e.target.tagName==='A'){m.classList.remove('open');b.setAttribute('aria-expanded','false')}});
+</script>
+</body>
+</html>
